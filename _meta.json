@@ -1,0 +1,34 @@
+{
+  "name": "code-assistant",
+  "version": "1.0.0",
+  "summary": "Generate, review, debug, and refactor code in any language. Optimized for accuracy and clean output. Powered by Evolink.ai",
+  "description": "A comprehensive code assistant that generates working code (not templates), reviews for security/performance issues, debugs errors with context, and refactors legacy codebases. Supports Python, JavaScript/TypeScript, Go, Rust, Java, and C/C++ with automatic syntax verification.",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "homepage": "https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw.git"
+  },
+  "tags": [
+    "code",
+    "development",
+    "refactor",
+    "debug",
+    "review",
+    "generation",
+    "python",
+    "javascript",
+    "typescript",
+    "go",
+    "rust"
+  ],
+  "envVars": [],
+  "binaries": ["node"],
+  "always": false,
+  "capabilities": {
+    "fileAccess": "workspace",
+    "networkAccess": false,
+    "shellAccess": true
+  }
+}
