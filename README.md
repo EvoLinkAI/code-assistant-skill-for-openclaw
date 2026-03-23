@@ -133,7 +133,6 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
   - Text/Code: 5MB
   - Binary files: Not supported for security reasons
 - **No External Calls**: Does not make network requests or access external APIs
-```
 
 ## Links
 
