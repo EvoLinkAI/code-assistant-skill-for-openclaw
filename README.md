@@ -143,8 +143,6 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
 
 ## License
 
-MIT © EvoLinkAI
+MIT
 
----
-
-**Built with ❤️ by the Evolink.ai team**
+Powered by [Evolink.ai](https://evolink.ai?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
