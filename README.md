@@ -29,23 +29,11 @@ A comprehensive code assistant that generates **working code** (not templates), 
 
 ## Setup
 
-1. **Get an API key** at [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
-2. **Set the environment variable**:
+1. Get an API key at [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
+2. Set the environment variable:
 
 ```bash
 export EVOLINK_API_KEY="your-key-here"
-```
-
-3. **Install the skill**:
-
-```bash
-# Via ClawHub
-clawhub install code-assistant
-
-# Or clone manually
-git clone https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw.git
-cd code-assistant-skill-for-openclaw
-npm install
 ```
 
 ## Usage
