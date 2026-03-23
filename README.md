@@ -27,10 +27,19 @@ A comprehensive code assistant that generates **working code** (not templates), 
 | 🧪 Test Generation | Optionally generates unit tests for critical logic |
 | 📦 CLI Tool | `evocode` command for pipeline integration |
 
-## Installation
+## Setup
+
+1. **Get an API key** at [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
+2. **Set the environment variable**:
 
 ```bash
-# Install via ClawHub
+export EVOLINK_API_KEY="your-key-here"
+```
+
+3. **Install the skill**:
+
+```bash
+# Via ClawHub
 clawhub install code-assistant
 
 # Or clone manually
@@ -78,14 +87,18 @@ evocode refactor legacy.js --target "modern ES6+"
 
 ## Configuration
 
-Create `.evocoderc.json` in your project root:
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `EVOLINK_API_KEY` | (required) | Your Evolink API key |
+| `EVOLINK_MODEL` | `[REDACTED]` | Model for code generation. Switch to any model supported by the [Evolink API](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) |
+
+Optional: Create `.evocoderc.json` in your project root for custom settings:
 
 ```json
 {
   "defaultLanguage": "python",
   "autoTest": true,
-  "verifyOnGenerate": true,
-  "model": "[REDACTED]"
+  "verifyOnGenerate": true
 }
 ```
 
@@ -147,9 +160,12 @@ To use a different model, set in `.evocoderc.json`:
 ## Links
 
 - 🌐 [Evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — AI-powered development platform
-- 📚 [API Documentation](https://docs.evolink.ai?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
+- 📚 [API Docs (EN)](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API reference
+- 📚 [API Docs (中文)](https://docs.evolink.ai/cn/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API documentation
+- 🔑 [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
 - 💬 [Community Discord](https://discord.gg/evolink)
 - 🐛 [Report Issues](https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw/issues)
+- 📦 [Source Code](https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw) — GitHub repository
 
 ## License
 
