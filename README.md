@@ -149,11 +149,10 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
 
 ## Links
 
-- [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
+- [Source Code](https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw) — GitHub repository
 - [API Docs (EN)](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API reference
 - [API Docs (中文)](https://docs.evolink.ai/cn/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API documentation
-- [Community Discord](https://discord.gg/evolink) — Join our community
-- [Support](mailto:hello@evolink.ai) — Get help
+- [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
 
 ## License
 
