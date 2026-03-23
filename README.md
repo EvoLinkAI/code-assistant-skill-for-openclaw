@@ -128,7 +128,9 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
 
 ## Security & Limits
 
-- **File Access**: Restricted to workspace directory (`/root/.openclaw/workspace`)
+- **File Access**: Reads files from workspace directory (`/root/.openclaw/workspace`) to understand project context
+- **Data Transmission**: **Workspace files and code are sent to `api.evolink.ai` for processing.** Do not use with repositories containing secrets or confidential information unless you consent to external transmission.
+- **Code Execution**: Automatically runs syntax checks and optionally executes tests. **User code will be executed** during verification.
 - **File Size Limits**: 
   - Text/Code: 5MB
   - Binary files: Not supported for security reasons

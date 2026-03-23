@@ -183,19 +183,22 @@ Optional: Create `.evocoderc.json` in your project root:
 
 **Credentials & Network**
 
-`EVOLINK_API_KEY` is required to call the Evolink API for code generation. Generated code and analysis results are sent to `api.evolink.ai` and discarded after the response is returned. No data is stored. Review Evolink's privacy policy before sending sensitive content.
+`EVOLINK_API_KEY` is required to call the Evolink API for code generation. **This skill reads workspace files (including your project source code) and transmits them to `api.evolink.ai` for analysis and code generation.** Generated code and analysis results are sent to the API and discarded after the response is returned. No data is stored permanently. Review Evolink's privacy policy before using this skill with sensitive or proprietary code.
 
 Required binaries: `node` (for CLI tool).
 
-**File Access Controls**
+**File Access & Data Transmission**
 
-File paths are restricted to the workspace directory (`/root/.openclaw/workspace` by default). The skill does not access files outside this directory.
+- **Workspace Access**: The skill reads files from your workspace directory (`/root/.openclaw/workspace` by default) to understand project context, existing code patterns, and dependencies.
+- **External Transmission**: File contents, code snippets, and analysis requests are sent to `api.evolink.ai` for processing. **Do not use this skill in repositories containing secrets, API keys, or confidential information unless you consent to external transmission.**
+- **No Symlink Traversal**: Paths are resolved via standard filesystem operations. No symlink traversal or path manipulation is performed.
 
-Paths are resolved via standard filesystem operations. No symlink traversal or path manipulation is performed.
+**Code Execution Risk**
 
-**Code Verification**
-
-After generating or modifying code, the skill automatically runs syntax checks using language-specific tools (see verification commands table above).
+After generating or modifying code, the skill automatically runs **syntax checks and optionally executes tests** using language-specific tools (see verification commands table above). This means:
+- **User code will be executed** in your environment during verification
+- **Untrusted code in your workspace may run** if the skill attempts to verify it
+- Only use this skill in trusted repositories or sandboxed environments
 
 **No Placeholders**
 
