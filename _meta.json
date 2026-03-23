@@ -1,6 +1,6 @@
 {
   "name": "verified-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "Generate, review, debug, and refactor code in any language. Optimized for accuracy and clean output. Powered by Evolink.ai",
   "description": "A comprehensive code assistant that generates working code (not templates), reviews for security/performance issues, debugs errors with context, and refactors legacy codebases. Supports Python, JavaScript/TypeScript, Go, Rust, Java, and C/C++ with automatic syntax verification.",
   "author": "EvoLinkAI",
