@@ -145,27 +145,15 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
   - Text/Code: 5MB
   - Binary files: Not supported for security reasons
 - **No External Calls**: Does not make network requests or access external APIs
-
-## Model Configuration
-
-Default model: **[REDACTED]** (optimized for code generation accuracy)
-
-To use a different model, set in `.evocoderc.json`:
-```json
-{
-  "model": "[REDACTED]"
-}
 ```
 
 ## Links
 
-- 🌐 [Evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — AI-powered development platform
-- 📚 [API Docs (EN)](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API reference
-- 📚 [API Docs (中文)](https://docs.evolink.ai/cn/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API documentation
-- 🔑 [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
-- 💬 [Community Discord](https://discord.gg/evolink)
-- 🐛 [Report Issues](https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw/issues)
-- 📦 [Source Code](https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw) — GitHub repository
+- [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
+- [API Docs (EN)](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API reference
+- [API Docs (中文)](https://docs.evolink.ai/cn/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — API documentation
+- [Community Discord](https://discord.gg/evolink) — Join our community
+- [Support](mailto:hello@evolink.ai) — Get help
 
 ## License
 
