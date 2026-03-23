@@ -132,7 +132,7 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
 - **File Size Limits**: 
   - Text/Code: 5MB
   - Binary files: Not supported for security reasons
-- **No External Calls**: Does not make network requests or access external APIs
+- **Network Access**: Sends generated code and analysis to `api.evolink.ai` for processing. Requires `EVOLINK_API_KEY`.
 
 ## Links
 
