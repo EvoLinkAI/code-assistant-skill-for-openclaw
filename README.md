@@ -1,6 +1,6 @@
 # Code Assistant Skill for OpenClaw
 
-> **Powered by [Evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)** — Generate, review, debug, and refactor code in any language with zero placeholders.
+> **Powered by [Evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=code-assistant-skill-for-openclaw?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)** — Generate, review, debug, and refactor code in any language with zero placeholders.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://clawhub.ai)
@@ -29,7 +29,7 @@ A comprehensive code assistant that generates **working code** (not templates), 
 
 ## Setup
 
-1. Get an API key at [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
+1. Get an API key at [evolink.ai/signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=code-assistant-skill-for-openclaw?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
 2. Set the environment variable:
 
 ```bash
@@ -142,7 +142,7 @@ Optional: Create `.evocoderc.json` in your project root for custom settings:
 - [API Reference](https://docs.evolink.ai/en/api-manual/language-series/claude/claude-messages-api?utm_source=github&utm_medium=skill&utm_campaign=code-assistant)
 - [Community](https://discord.com/invite/5mGHfA24kn)
 - [Support](mailto:support@evolink.ai)
-- [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
+- [Get API Key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=code-assistant-skill-for-openclaw?utm_source=github&utm_medium=skill&utm_campaign=code-assistant) — Free signup
 
 ## License
 
